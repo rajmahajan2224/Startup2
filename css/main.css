@@ -234,3 +234,14 @@ input[type=submit]:hover {
     box-sizing: border-box;
     box-shadow: #000000;
 }
+
+/*****************Media Query*************************/
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .logo {
+        position: static;
+    }
+}
